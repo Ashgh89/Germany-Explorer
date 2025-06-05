@@ -5,6 +5,9 @@ import tour4 from "./images/berlin-pic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faWallet } from "@fortawesome/free-solid-svg-icons";
+import { faTree } from "@fortawesome/free-solid-svg-icons";
+import { faSocks } from "@fortawesome/free-solid-svg-icons";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -25,19 +28,19 @@ export const socialLinks = [
 export const services = [
   {
     id: 1,
-    icon: "fas fa-wallet fa-fw",
+    icon: faWallet,
     title: "saving money",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
   },
   {
     id: 2,
-    icon: "fas fa-tree fa-fw",
+    icon: faTree,
     title: "endless hiking",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
   },
   {
     id: 3,
-    icon: "fas fa-socks fa-fw",
+    icon: faSocks,
     title: "amazing comfort",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
   },

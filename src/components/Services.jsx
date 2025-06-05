@@ -1,4 +1,5 @@
 import { services } from "../data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Services = () => {
   return (
@@ -13,7 +14,7 @@ const Services = () => {
           return (
             <article className="service" key={id}>
               <span className="service-icon">
-                <i className={icon}></i>
+                <FontAwesomeIcon icon={icon} />
               </span>
               <div className="service-info">
                 <h4 className="service-title">{title}</h4>

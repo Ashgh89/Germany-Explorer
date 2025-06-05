@@ -11,7 +11,7 @@ Variables
   --clr-primary-3: hsl(185, 81%, 29%);
   --clr-primary-4: hsl(184, 77%, 34%);
   /* primary/main color */
-  --clr-primary-5: hsl(185, 62%, 45%);
+  --clr-primary-5: hsl(185, 100%, 12%);
   /* lighter shades of primary color */
   --clr-primary-6: hsl(185, 57%, 50%);
   --clr-primary-7: hsl(184, 65%, 59%);
@@ -426,7 +426,7 @@ Footer
   transition: var(--transition);
 }
 .footer-link:hover {
-  color: var(--clr-primary-5);
+  color: rgb(28, 126, 237);
 }
 .footer-icon {
   font-size: 2rem;
@@ -435,7 +435,7 @@ Footer
   transition: var(--transition);
 }
 .footer-icon:hover {
-  color: var(--clr-primary-5);
+  color: orangered;
 }
 .copyright {
   text-transform: capitalize;
@@ -539,8 +539,9 @@ Navbar
   }
   .nav-link:hover {
     padding: 0;
-    color: var(--clr-primary-5);
+    color: rgb(28, 126, 237);
     background: transparent;
+    font-weight: bold;
   }
   .nav-icons {
     display: flex;
@@ -556,6 +557,6 @@ Navbar
     transition: var(--transition);
   }
   .nav-icon:hover {
-    color: var(--clr-primary-8);
+    color: orangered;
   }
 }
